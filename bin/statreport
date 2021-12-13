@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+const StatReport = require('..')
+
+const sr = new StatReport(process.argv.slice(2))
+
+sr.init()

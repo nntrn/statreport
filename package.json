@@ -1,0 +1,22 @@
+{
+  "name": "statreport",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "statreport": "./bin/statreport"
+  },
+  "keywords": [
+    "data",
+    "report",
+    "cli"
+  ],
+  "author": "annie tran (https://github.com/nntrn)",
+  "license": "MIT",
+  "dependencies": {
+    "datalib": "^1.9.3"
+  }
+}

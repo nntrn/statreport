@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "name": "Launch File",
+      "type": "pwa-node",
+      "request": "launch",
+      "program": "${file}",
+      "skipFiles": [
+        "<node_internals>/**/*.js",
+        "${workspaceFolder}/node_modules/**/*.js",
+      ]
+    },
+    {
+      "name": "Attach to Process",
+      "type": "node",
+      "request": "attach",
+      "processId": "${command:PickProcess}"
+    }
+  ]
+}

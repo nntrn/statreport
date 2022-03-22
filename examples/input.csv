@@ -1,0 +1,223 @@
+STATE,NAICS,ENTRSIZE,FIRM,ESTB,EMPL,EMPLFL_R,EMPLFL_N,PAYR,PAYRFL_N,STATEDSCR,NAICSDSCR,ENTRSIZEDSCR
+00,--,01,5954684,7757807,126752238,,G,6435142055,G,United States,Total,01:  Total
+00,--,02,3665182,3671901,5923452,,G,268039737,G,United States,Total,02:  0-4
+00,--,03,1013878,1025690,6681968,,G,248985263,G,United States,Total,03:  5-9
+00,--,04,626900,657781,8432521,,G,329388425,G,United States,Total,04:  10-19
+00,--,05,5305960,5355372,21037941,,G,846413425,G,United States,Total,05:  <20
+00,--,06,538283,705460,21093550,,G,899265224,G,United States,Total,06:  20-99
+00,--,07,90742,367446,17783726,,G,870788396,G,United States,Total,07:  100-499
+00,--,08,5934985,6428278,59915217,,G,2616467045,G,United States,Total,08:  <500
+00,--,09,19699,1329529,66837021,,G,3818675010,G,United States,Total,09:  500+
+00,11,01,21830,22594,160411,,G,6598512,G,United States,"Agriculture, Forestry, Fishing and Hunting",01:  Total
+00,11,02,15192,15194,22402,,G,990763,G,United States,"Agriculture, Forestry, Fishing and Hunting",02:  0-4
+00,11,03,3514,3516,22973,,G,883763,G,United States,"Agriculture, Forestry, Fishing and Hunting",03:  5-9
+00,11,04,1688,1696,22010,,G,921920,G,United States,"Agriculture, Forestry, Fishing and Hunting",04:  10-19
+00,11,05,20394,20406,67385,,G,2796446,G,United States,"Agriculture, Forestry, Fishing and Hunting",05:  <20
+00,11,06,1132,1217,40352,,G,1754904,G,United States,"Agriculture, Forestry, Fishing and Hunting",06:  20-99
+00,11,07,204,458,26841,,G,989393,G,United States,"Agriculture, Forestry, Fishing and Hunting",07:  100-499
+00,11,08,21730,22081,134578,,G,5540743,G,United States,"Agriculture, Forestry, Fishing and Hunting",08:  <500
+00,11,09,100,513,25833,,H,1057769,H,United States,"Agriculture, Forestry, Fishing and Hunting",09:  500+
+00,113,01,8564,8739,55726,,G,2455423,G,United States,Forestry and Logging,01:  Total
+00,113,02,5187,5187,9246,,G,369370,G,United States,Forestry and Logging,02:  0-4
+00,113,03,1929,1929,12713,,G,486754,G,United States,Forestry and Logging,03:  5-9
+00,113,04,918,918,11946,,G,505746,G,United States,Forestry and Logging,04:  10-19
+00,113,05,8034,8034,33905,,G,1361870,G,United States,Forestry and Logging,05:  <20
+00,113,06,478,482,15066,,G,704628,G,United States,Forestry and Logging,06:  20-99
+00,113,07,23,52,1770,,G,85931,G,United States,Forestry and Logging,07:  100-499
+00,113,08,8535,8568,50741,,G,2152429,G,United States,Forestry and Logging,08:  <500
+00,113,09,29,171,4985,,H,302994,H,United States,Forestry and Logging,09:  500+
+00,1131,01,436,480,4181,,H,216893,H,United States,Timber Tract Operations,01:  Total
+00,1131,02,308,308,496,,H,21594,G,United States,Timber Tract Operations,02:  0-4
+00,1131,03,60,60,350,,H,17775,G,United States,Timber Tract Operations,03:  5-9
+00,1131,04,32,32,445,,G,19267,G,United States,Timber Tract Operations,04:  10-19
+00,1131,05,400,400,1291,,G,58636,G,United States,Timber Tract Operations,05:  <20
+00,1131,06,18,20,541,,G,27002,G,United States,Timber Tract Operations,06:  20-99
+00,1131,07,3,5,228,,G,11961,J,United States,Timber Tract Operations,07:  100-499
+00,1131,08,421,425,2060,,G,97599,G,United States,Timber Tract Operations,08:  <500
+00,1131,09,15,55,2121,,J,119294,J,United States,Timber Tract Operations,09:  500+
+00,11311,01,436,480,4181,,H,216893,H,United States,Timber Tract Operations,01:  Total
+00,11311,02,308,308,496,,H,21594,G,United States,Timber Tract Operations,02:  0-4
+00,11311,03,60,60,350,,H,17775,G,United States,Timber Tract Operations,03:  5-9
+00,11311,04,32,32,445,,G,19267,G,United States,Timber Tract Operations,04:  10-19
+00,11311,05,400,400,1291,,G,58636,G,United States,Timber Tract Operations,05:  <20
+00,11311,06,18,20,541,,G,27002,G,United States,Timber Tract Operations,06:  20-99
+00,11311,07,3,5,228,,G,11961,J,United States,Timber Tract Operations,07:  100-499
+00,11311,08,421,425,2060,,G,97599,G,United States,Timber Tract Operations,08:  <500
+00,11311,09,15,55,2121,,J,119294,J,United States,Timber Tract Operations,09:  500+
+00,113110,01,436,480,4181,,H,216893,H,United States,Timber Tract Operations,01:  Total
+00,113110,02,308,308,496,,H,21594,G,United States,Timber Tract Operations,02:  0-4
+00,113110,03,60,60,350,,H,17775,G,United States,Timber Tract Operations,03:  5-9
+00,113110,04,32,32,445,,G,19267,G,United States,Timber Tract Operations,04:  10-19
+00,113110,05,400,400,1291,,G,58636,G,United States,Timber Tract Operations,05:  <20
+00,113110,06,18,20,541,,G,27002,G,United States,Timber Tract Operations,06:  20-99
+00,113110,07,3,5,228,,G,11961,J,United States,Timber Tract Operations,07:  100-499
+00,113110,08,421,425,2060,,G,97599,G,United States,Timber Tract Operations,08:  <500
+00,113110,09,15,55,2121,,J,119294,J,United States,Timber Tract Operations,09:  500+
+00,1132,01,167,183,1357,,G,47568,G,United States,Forest Nurseries and Gathering of Forest Products,01:  Total
+00,1132,02,113,113,157,,H,7427,G,United States,Forest Nurseries and Gathering of Forest Products,02:  0-4
+00,1132,03,22,22,141,,H,4331,G,United States,Forest Nurseries and Gathering of Forest Products,03:  5-9
+00,1132,04,17,17,211,,G,4946,G,United States,Forest Nurseries and Gathering of Forest Products,04:  10-19
+00,1132,05,152,152,509,,G,16704,G,United States,Forest Nurseries and Gathering of Forest Products,05:  <20
+00,1132,06,9,9,374,,G,12363,G,United States,Forest Nurseries and Gathering of Forest Products,06:  20-99
+00,1132,07,3,3,0,E,D,0,D,United States,Forest Nurseries and Gathering of Forest Products,07:  100-499
+00,1132,08,164,164,1167,,G,33160,G,United States,Forest Nurseries and Gathering of Forest Products,08:  <500
+00,1132,09,3,19,190,,J,14408,J,United States,Forest Nurseries and Gathering of Forest Products,09:  500+
+00,11321,01,167,183,1357,,G,47568,G,United States,Forest Nurseries and Gathering of Forest Products,01:  Total
+00,11321,02,113,113,157,,H,7427,G,United States,Forest Nurseries and Gathering of Forest Products,02:  0-4
+00,11321,03,22,22,141,,H,4331,G,United States,Forest Nurseries and Gathering of Forest Products,03:  5-9
+00,11321,04,17,17,211,,G,4946,G,United States,Forest Nurseries and Gathering of Forest Products,04:  10-19
+00,11321,05,152,152,509,,G,16704,G,United States,Forest Nurseries and Gathering of Forest Products,05:  <20
+00,11321,06,9,9,374,,G,12363,G,United States,Forest Nurseries and Gathering of Forest Products,06:  20-99
+00,11321,07,3,3,0,E,D,0,D,United States,Forest Nurseries and Gathering of Forest Products,07:  100-499
+00,11321,08,164,164,1167,,G,33160,G,United States,Forest Nurseries and Gathering of Forest Products,08:  <500
+00,11321,09,3,19,190,,J,14408,J,United States,Forest Nurseries and Gathering of Forest Products,09:  500+
+00,113210,01,167,183,1357,,G,47568,G,United States,Forest Nurseries and Gathering of Forest Products,01:  Total
+00,113210,02,113,113,157,,H,7427,G,United States,Forest Nurseries and Gathering of Forest Products,02:  0-4
+00,113210,03,22,22,141,,H,4331,G,United States,Forest Nurseries and Gathering of Forest Products,03:  5-9
+00,113210,04,17,17,211,,G,4946,G,United States,Forest Nurseries and Gathering of Forest Products,04:  10-19
+00,113210,05,152,152,509,,G,16704,G,United States,Forest Nurseries and Gathering of Forest Products,05:  <20
+00,113210,06,9,9,374,,G,12363,G,United States,Forest Nurseries and Gathering of Forest Products,06:  20-99
+00,113210,07,3,3,0,E,D,0,D,United States,Forest Nurseries and Gathering of Forest Products,07:  100-499
+00,113210,08,164,164,1167,,G,33160,G,United States,Forest Nurseries and Gathering of Forest Products,08:  <500
+00,113210,09,3,19,190,,J,14408,J,United States,Forest Nurseries and Gathering of Forest Products,09:  500+
+00,1133,01,7966,8076,50188,,G,2190962,G,United States,Logging,01:  Total
+00,1133,02,4766,4766,8593,,G,340349,G,United States,Logging,02:  0-4
+00,1133,03,1847,1847,12222,,G,464648,G,United States,Logging,03:  5-9
+00,1133,04,869,869,11290,,G,481533,G,United States,Logging,04:  10-19
+00,1133,05,7482,7482,32105,,G,1286530,G,United States,Logging,05:  <20
+00,1133,06,451,453,14151,,G,665263,G,United States,Logging,06:  20-99
+00,1133,07,18,44,1258,,G,69877,G,United States,Logging,07:  100-499
+00,1133,08,7951,7979,47514,,G,2021670,G,United States,Logging,08:  <500
+00,1133,09,15,97,2674,,H,169292,G,United States,Logging,09:  500+
+00,11331,01,7966,8076,50188,,G,2190962,G,United States,Logging,01:  Total
+00,11331,02,4766,4766,8593,,G,340349,G,United States,Logging,02:  0-4
+00,11331,03,1847,1847,12222,,G,464648,G,United States,Logging,03:  5-9
+00,11331,04,869,869,11290,,G,481533,G,United States,Logging,04:  10-19
+00,11331,05,7482,7482,32105,,G,1286530,G,United States,Logging,05:  <20
+00,11331,06,451,453,14151,,G,665263,G,United States,Logging,06:  20-99
+00,11331,07,18,44,1258,,G,69877,G,United States,Logging,07:  100-499
+00,11331,08,7951,7979,47514,,G,2021670,G,United States,Logging,08:  <500
+00,11331,09,15,97,2674,,H,169292,G,United States,Logging,09:  500+
+00,113310,01,7966,8076,50188,,G,2190962,G,United States,Logging,01:  Total
+00,113310,02,4766,4766,8593,,G,340349,G,United States,Logging,02:  0-4
+00,113310,03,1847,1847,12222,,G,464648,G,United States,Logging,03:  5-9
+00,113310,04,869,869,11290,,G,481533,G,United States,Logging,04:  10-19
+00,113310,05,7482,7482,32105,,G,1286530,G,United States,Logging,05:  <20
+00,113310,06,451,453,14151,,G,665263,G,United States,Logging,06:  20-99
+00,113310,07,18,44,1258,,G,69877,G,United States,Logging,07:  100-499
+00,113310,08,7951,7979,47514,,G,2021670,G,United States,Logging,08:  <500
+00,113310,09,15,97,2674,,H,169292,G,United States,Logging,09:  500+
+00,114,01,2769,2807,7111,,G,401119,G,United States,"Fishing, Hunting and Trapping",01:  Total
+00,114,02,2524,2524,2138,,H,134582,G,United States,"Fishing, Hunting and Trapping",02:  0-4
+00,114,03,142,142,928,,G,36205,G,United States,"Fishing, Hunting and Trapping",03:  5-9
+00,114,04,44,45,612,,G,29003,G,United States,"Fishing, Hunting and Trapping",04:  10-19
+00,114,05,2710,2711,3678,,H,199790,G,United States,"Fishing, Hunting and Trapping",05:  <20
+00,114,06,45,51,1546,,G,94111,G,United States,"Fishing, Hunting and Trapping",06:  20-99
+00,114,07,11,37,1868,,G,106303,G,United States,"Fishing, Hunting and Trapping",07:  100-499
+00,114,08,2766,2799,7092,,G,400204,G,United States,"Fishing, Hunting and Trapping",08:  <500
+00,114,09,3,8,19,,J,915,J,United States,"Fishing, Hunting and Trapping",09:  500+
+00,1141,01,2414,2449,5461,,G,347059,G,United States,Fishing,01:  Total
+00,1141,02,2257,2257,1782,,H,123292,G,United States,Fishing,02:  0-4
+00,1141,03,91,91,584,,G,25646,G,United States,Fishing,03:  5-9
+00,1141,04,24,25,331,,G,18279,G,United States,Fishing,04:  10-19
+00,1141,05,2372,2373,2697,,H,167217,G,United States,Fishing,05:  <20
+00,1141,06,31,34,1140,,G,80816,G,United States,Fishing,06:  20-99
+00,1141,07,9,35,1615,,G,98488,G,United States,Fishing,07:  100-499
+00,1141,08,2412,2442,5452,,G,346521,G,United States,Fishing,08:  <500
+00,1141,09,2,7,0,A,D,0,D,United States,Fishing,09:  500+
+00,11411,01,2414,2449,5461,,G,347059,G,United States,Fishing,01:  Total
+00,11411,02,2257,2257,1782,,H,123292,G,United States,Fishing,02:  0-4
+00,11411,03,91,91,584,,G,25646,G,United States,Fishing,03:  5-9
+00,11411,04,24,25,331,,G,18279,G,United States,Fishing,04:  10-19
+00,11411,05,2372,2373,2697,,H,167217,G,United States,Fishing,05:  <20
+00,11411,06,31,34,1140,,G,80816,G,United States,Fishing,06:  20-99
+00,11411,07,9,35,1615,,G,98488,G,United States,Fishing,07:  100-499
+00,11411,08,2412,2442,5452,,G,346521,G,United States,Fishing,08:  <500
+00,11411,09,2,7,0,A,D,0,D,United States,Fishing,09:  500+
+00,114111,01,1173,1207,3171,,G,218847,G,United States,Finfish Fishing,01:  Total
+00,114111,02,1080,1080,939,,H,71337,G,United States,Finfish Fishing,02:  0-4
+00,114111,03,54,54,342,,G,16951,G,United States,Finfish Fishing,03:  5-9
+00,114111,04,17,18,216,,H,12736,H,United States,Finfish Fishing,04:  10-19
+00,114111,05,1151,1152,1497,,H,101024,G,United States,Finfish Fishing,05:  <20
+00,114111,06,13,15,453,,H,32670,H,United States,Finfish Fishing,06:  20-99
+00,114111,07,7,33,1212,,H,84615,G,United States,Finfish Fishing,07:  100-499
+00,114111,08,1171,1200,3162,,G,218309,G,United States,Finfish Fishing,08:  <500
+00,114111,09,2,7,0,A,D,0,D,United States,Finfish Fishing,09:  500+
+00,114112,01,1132,1133,1992,,H,100905,G,United States,Shellfish Fishing,01:  Total
+00,114112,02,1078,1078,745,,H,48818,G,United States,Shellfish Fishing,02:  0-4
+00,114112,03,33,33,218,,H,6837,H,United States,Shellfish Fishing,03:  5-9
+00,114112,04,5,5,81,,J,3564,G,United States,Shellfish Fishing,04:  10-19
+00,114112,05,1116,1116,1044,,H,59219,G,United States,Shellfish Fishing,05:  <20
+00,114112,06,14,15,545,,H,27813,H,United States,Shellfish Fishing,06:  20-99
+00,114112,07,2,2,0,E,D,0,D,United States,Shellfish Fishing,07:  100-499
+00,114112,08,1132,1133,1992,,H,100905,G,United States,Shellfish Fishing,08:  <500
+00,114119,01,109,109,298,,H,27307,H,United States,Other Marine Fishing,01:  Total
+00,114119,02,99,99,98,,J,3137,G,United States,Other Marine Fishing,02:  0-4
+00,114119,03,4,4,24,,H,1858,J,United States,Other Marine Fishing,03:  5-9
+00,114119,04,2,2,0,B,D,0,D,United States,Other Marine Fishing,04:  10-19
+00,114119,05,105,105,156,,J,6974,G,United States,Other Marine Fishing,05:  <20
+00,114119,06,4,4,142,,J,20333,H,United States,Other Marine Fishing,06:  20-99
+00,114119,08,109,109,298,,H,27307,H,United States,Other Marine Fishing,08:  <500
+00,1142,01,355,358,1650,,G,54060,G,United States,Hunting and Trapping,01:  Total
+00,1142,02,267,267,356,,G,11290,G,United States,Hunting and Trapping,02:  0-4
+00,1142,03,51,51,344,,H,10559,G,United States,Hunting and Trapping,03:  5-9
+00,1142,04,20,20,281,,G,10724,G,United States,Hunting and Trapping,04:  10-19
+00,1142,05,338,338,981,,G,32573,G,United States,Hunting and Trapping,05:  <20
+00,1142,06,14,17,406,,H,13295,H,United States,Hunting and Trapping,06:  20-99
+00,1142,07,2,2,0,E,D,0,D,United States,Hunting and Trapping,07:  100-499
+00,1142,08,354,357,1640,,G,53683,G,United States,Hunting and Trapping,08:  <500
+00,1142,09,1,1,0,A,D,0,D,United States,Hunting and Trapping,09:  500+
+00,11421,01,355,358,1650,,G,54060,G,United States,Hunting and Trapping,01:  Total
+00,11421,02,267,267,356,,G,11290,G,United States,Hunting and Trapping,02:  0-4
+00,11421,03,51,51,344,,H,10559,G,United States,Hunting and Trapping,03:  5-9
+00,11421,04,20,20,281,,G,10724,G,United States,Hunting and Trapping,04:  10-19
+00,11421,05,338,338,981,,G,32573,G,United States,Hunting and Trapping,05:  <20
+00,11421,06,14,17,406,,H,13295,H,United States,Hunting and Trapping,06:  20-99
+00,11421,07,2,2,0,E,D,0,D,United States,Hunting and Trapping,07:  100-499
+00,11421,08,354,357,1640,,G,53683,G,United States,Hunting and Trapping,08:  <500
+00,11421,09,1,1,0,A,D,0,D,United States,Hunting and Trapping,09:  500+
+00,114210,01,355,358,1650,,G,54060,G,United States,Hunting and Trapping,01:  Total
+00,114210,02,267,267,356,,G,11290,G,United States,Hunting and Trapping,02:  0-4
+00,114210,03,51,51,344,,H,10559,G,United States,Hunting and Trapping,03:  5-9
+00,114210,04,20,20,281,,G,10724,G,United States,Hunting and Trapping,04:  10-19
+00,114210,05,338,338,981,,G,32573,G,United States,Hunting and Trapping,05:  <20
+00,114210,06,14,17,406,,H,13295,H,United States,Hunting and Trapping,06:  20-99
+00,114210,07,2,2,0,E,D,0,D,United States,Hunting and Trapping,07:  100-499
+00,114210,08,354,357,1640,,G,53683,G,United States,Hunting and Trapping,08:  <500
+00,114210,09,1,1,0,A,D,0,D,United States,Hunting and Trapping,09:  500+
+00,115,01,10500,11048,97574,,G,3741970,G,United States,Support Activities for Agriculture and Forestry,01:  Total
+00,115,02,7481,7483,11018,,G,486811,G,United States,Support Activities for Agriculture and Forestry,02:  0-4
+00,115,03,1443,1445,9332,,G,360804,G,United States,Support Activities for Agriculture and Forestry,03:  5-9
+00,115,04,726,733,9452,,G,387171,G,United States,Support Activities for Agriculture and Forestry,04:  10-19
+00,115,05,9650,9661,29802,,G,1234786,G,United States,Support Activities for Agriculture and Forestry,05:  <20
+00,115,06,610,684,23740,,G,956165,G,United States,Support Activities for Agriculture and Forestry,06:  20-99
+00,115,07,171,369,23203,,G,797159,G,United States,Support Activities for Agriculture and Forestry,07:  100-499
+00,115,08,10431,10714,76745,,G,2988110,G,United States,Support Activities for Agriculture and Forestry,08:  <500
+00,115,09,69,334,20829,,G,753860,H,United States,Support Activities for Agriculture and Forestry,09:  500+
+00,1151,01,4495,4848,66007,,G,2575604,G,United States,Support Activities for Crop Production,01:  Total
+00,1151,02,2834,2835,4033,,G,258094,G,United States,Support Activities for Crop Production,02:  0-4
+00,1151,03,678,679,4432,,G,211258,G,United States,Support Activities for Crop Production,03:  5-9
+00,1151,04,408,413,5286,,G,236136,G,United States,Support Activities for Crop Production,04:  10-19
+00,1151,05,3920,3927,13751,,G,705488,G,United States,Support Activities for Crop Production,05:  <20
+00,1151,06,394,428,15839,,G,639942,G,United States,Support Activities for Crop Production,06:  20-99
+00,1151,07,135,259,18367,,G,601057,G,United States,Support Activities for Crop Production,07:  100-499
+00,1151,08,4449,4614,47957,,G,1946487,G,United States,Support Activities for Crop Production,08:  <500
+00,1151,09,46,234,18050,,G,629117,H,United States,Support Activities for Crop Production,09:  500+
+00,11511,01,4495,4848,66007,,G,2575604,G,United States,Support Activities for Crop Production,01:  Total
+00,11511,02,2834,2835,4033,,G,258094,G,United States,Support Activities for Crop Production,02:  0-4
+00,11511,03,678,679,4432,,G,211258,G,United States,Support Activities for Crop Production,03:  5-9
+00,11511,04,408,413,5286,,G,236136,G,United States,Support Activities for Crop Production,04:  10-19
+00,11511,05,3920,3927,13751,,G,705488,G,United States,Support Activities for Crop Production,05:  <20
+00,11511,06,394,428,15839,,G,639942,G,United States,Support Activities for Crop Production,06:  20-99
+00,11511,07,135,259,18367,,G,601057,G,United States,Support Activities for Crop Production,07:  100-499
+00,11511,08,4449,4614,47957,,G,1946487,G,United States,Support Activities for Crop Production,08:  <500
+00,11511,09,46,234,18050,,G,629117,H,United States,Support Activities for Crop Production,09:  500+
+00,115111,01,217,229,2062,,G,101831,G,United States,Cotton Ginning,01:  Total
+00,115111,02,83,83,182,,G,12921,G,United States,Cotton Ginning,02:  0-4
+00,115111,03,60,60,397,,G,24645,G,United States,Cotton Ginning,03:  5-9
+00,115111,04,36,38,439,,G,22480,G,United States,Cotton Ginning,04:  10-19
+00,115111,05,179,181,1018,,G,60046,G,United States,Cotton Ginning,05:  <20
+00,115111,06,30,32,868,,G,35045,G,United States,Cotton Ginning,06:  20-99
+00,115111,07,3,4,30,,H,1289,G,United States,Cotton Ginning,07:  100-499
+00,115111,08,212,217,1916,,G,96380,G,United States,Cotton Ginning,08:  <500
+00,115111,09,5,12,146,,H,5451,G,United States,Cotton Ginning,09:  500+

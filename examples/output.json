@@ -1,0 +1,481 @@
+{
+  "summary": [
+    {
+      "name": "STATE",
+      "dataType": "number",
+      "summaryType": "categorical",
+      "distinct": 1,
+      "valid": 222,
+      "missing": 0,
+      "min": 0,
+      "max": 0,
+      "median": 0,
+      "mean": 0,
+      "stdev": 0,
+      "topValues": [
+        {
+          "value": "0",
+          "count": 222,
+          "%": 100
+        }
+      ]
+    },
+    {
+      "name": "NAICS",
+      "dataType": "string",
+      "summaryType": "categorical",
+      "valid": 222,
+      "distinct": 25,
+      "topValues": [
+        {
+          "value": "11",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "113",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "114",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "115",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "1131",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "1132",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "1133",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "1141",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "1142",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "1151",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "11311",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "11321",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "11331",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "11411",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "11421",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "11511",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "113110",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "113210",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "113310",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "114111",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "114210",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "115111",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "--",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "114112",
+          "count": 8,
+          "%": 3.604
+        },
+        {
+          "value": "114119",
+          "count": 7,
+          "%": 3.153
+        }
+      ]
+    },
+    {
+      "name": "ENTRSIZE",
+      "dataType": "number",
+      "summaryType": "categorical",
+      "distinct": 9,
+      "valid": 222,
+      "missing": 0,
+      "min": 1,
+      "max": 9,
+      "median": 5,
+      "mean": 4.954954954954956,
+      "stdev": 2.573401669348941,
+      "topValues": [
+        {
+          "value": "1",
+          "count": 25,
+          "%": 11.261
+        },
+        {
+          "value": "2",
+          "count": 25,
+          "%": 11.261
+        },
+        {
+          "value": "3",
+          "count": 25,
+          "%": 11.261
+        },
+        {
+          "value": "4",
+          "count": 25,
+          "%": 11.261
+        },
+        {
+          "value": "5",
+          "count": 25,
+          "%": 11.261
+        },
+        {
+          "value": "6",
+          "count": 25,
+          "%": 11.261
+        },
+        {
+          "value": "8",
+          "count": 25,
+          "%": 11.261
+        },
+        {
+          "value": "7",
+          "count": 24,
+          "%": 10.811
+        },
+        {
+          "value": "9",
+          "count": 23,
+          "%": 10.36
+        }
+      ]
+    },
+    {
+      "name": "FIRM",
+      "dataType": "number",
+      "summaryType": "quantitative",
+      "distinct": 113,
+      "valid": 222,
+      "missing": 0,
+      "min": 1,
+      "max": 5954684,
+      "median": 208,
+      "mean": 105818.00900900895,
+      "stdev": 710317.1135865115
+    },
+    {
+      "name": "ESTB",
+      "dataType": "number",
+      "summaryType": "quantitative",
+      "distinct": 117,
+      "valid": 222,
+      "missing": 0,
+      "min": 1,
+      "max": 7757807,
+      "median": 267,
+      "mean": 124538.54054054049,
+      "stdev": 807527.4322945401
+    },
+    {
+      "name": "EMPL",
+      "dataType": "number",
+      "summaryType": "quantitative",
+      "distinct": 124,
+      "valid": 222,
+      "missing": 0,
+      "min": 0,
+      "max": 126752238,
+      "median": 1640,
+      "mean": 1516030.95045045,
+      "stdev": 10629010.842184521
+    },
+    {
+      "name": "EMPLFL_N",
+      "dataType": "string",
+      "summaryType": "categorical",
+      "valid": 222,
+      "distinct": 4,
+      "topValues": [
+        {
+          "value": "G",
+          "count": 149,
+          "%": 67.117
+        },
+        {
+          "value": "H",
+          "count": 48,
+          "%": 21.622
+        },
+        {
+          "value": "D",
+          "count": 14,
+          "%": 6.306
+        },
+        {
+          "value": "J",
+          "count": 11,
+          "%": 4.955
+        }
+      ]
+    },
+    {
+      "name": "PAYR",
+      "dataType": "number",
+      "summaryType": "quantitative",
+      "distinct": 124,
+      "valid": 222,
+      "missing": 0,
+      "min": 0,
+      "max": 6435142055,
+      "median": 82715.5,
+      "mean": 73971294.009009,
+      "stdev": 538770159.8341614
+    },
+    {
+      "name": "PAYRFL_N",
+      "dataType": "string",
+      "summaryType": "categorical",
+      "valid": 222,
+      "distinct": 4,
+      "topValues": [
+        {
+          "value": "G",
+          "count": 179,
+          "%": 80.631
+        },
+        {
+          "value": "H",
+          "count": 18,
+          "%": 8.108
+        },
+        {
+          "value": "D",
+          "count": 14,
+          "%": 6.306
+        },
+        {
+          "value": "J",
+          "count": 11,
+          "%": 4.955
+        }
+      ]
+    },
+    {
+      "name": "STATEDSCR",
+      "dataType": "string",
+      "summaryType": "categorical",
+      "valid": 222,
+      "distinct": 1,
+      "topValues": [
+        {
+          "value": "United States",
+          "count": 222,
+          "%": 100
+        }
+      ]
+    },
+    {
+      "name": "NAICSDSCR",
+      "dataType": "string",
+      "summaryType": "categorical",
+      "valid": 222,
+      "distinct": 15,
+      "topValues": [
+        {
+          "value": "Timber Tract Operations",
+          "count": 27,
+          "%": 12.162
+        },
+        {
+          "value": "Forest Nurseries and Gathering of Forest Products",
+          "count": 27,
+          "%": 12.162
+        },
+        {
+          "value": "Logging",
+          "count": 27,
+          "%": 12.162
+        },
+        {
+          "value": "Hunting and Trapping",
+          "count": 27,
+          "%": 12.162
+        },
+        {
+          "value": "Fishing",
+          "count": 18,
+          "%": 8.108
+        },
+        {
+          "value": "Support Activities for Crop Production",
+          "count": 18,
+          "%": 8.108
+        },
+        {
+          "value": "Total",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "Agriculture, Forestry, Fishing and Hunting",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "Forestry and Logging",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "Fishing, Hunting and Trapping",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "Finfish Fishing",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "Support Activities for Agriculture and Forestry",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "Cotton Ginning",
+          "count": 9,
+          "%": 4.054
+        },
+        {
+          "value": "Shellfish Fishing",
+          "count": 8,
+          "%": 3.604
+        },
+        {
+          "value": "Other Marine Fishing",
+          "count": 7,
+          "%": 3.153
+        }
+      ]
+    },
+    {
+      "name": "ENTRSIZEDSCR",
+      "dataType": "string",
+      "summaryType": "categorical",
+      "valid": 222,
+      "distinct": 9,
+      "topValues": [
+        {
+          "value": "01:  Total",
+          "count": 25,
+          "%": 11.261
+        },
+        {
+          "value": "02:  0-4",
+          "count": 25,
+          "%": 11.261
+        },
+        {
+          "value": "03:  5-9",
+          "count": 25,
+          "%": 11.261
+        },
+        {
+          "value": "04:  10-19",
+          "count": 25,
+          "%": 11.261
+        },
+        {
+          "value": "05:  <20",
+          "count": 25,
+          "%": 11.261
+        },
+        {
+          "value": "06:  20-99",
+          "count": 25,
+          "%": 11.261
+        },
+        {
+          "value": "08:  <500",
+          "count": 25,
+          "%": 11.261
+        },
+        {
+          "value": "07:  100-499",
+          "count": 24,
+          "%": 10.811
+        },
+        {
+          "value": "09:  500+",
+          "count": 23,
+          "%": 10.36
+        }
+      ]
+    }
+  ],
+  "empty": []
+}

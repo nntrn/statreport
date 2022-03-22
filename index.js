@@ -2,7 +2,8 @@ const dl = require('datalib')
 const fs = require('fs')
 const formatSummaryObj = require('./src/stat')
 const printSummary = require('./src/printSummary')
-const { parseArgs, removeTimeFromDate, createAndWrite } = require('./src/utils')
+const { removeTimeFromDate } = require('./src/utils')
+const { parseArgs, createAndWrite, read, flattenJSON } = require('./src/utils-more')
 
 class StatReport {
   constructor(params) {
@@ -12,14 +13,12 @@ class StatReport {
 
     if(params.toString() === '[object Object]') {
       Object.assign(this, params)
-      const { csvPath = '', data = [], write = false, ...more } = params
-      this.csvPath = csvPath
-      this.data = StatReport.getReportData(csvPath)
+      const { file = '', csvPath = '', data = [], write = false, ...more } = params
+      this.csvPath = csvPath || file
+      this.data = StatReport.getReportData(file)
       this.statreport = StatReport.getSummary(this.getData())
       this.writePath = write
-
     }
-
   }
 
   static getCVSHeader(filepath) {
@@ -30,13 +29,19 @@ class StatReport {
     return formatSummaryObj(data)
   }
 
-  static getReportData(csvPath) {
-    return dl.csv(csvPath, StatReport.getCVSHeader(csvPath))
-      .map((d) =>
-        Object.entries(d)
-          .map((a) => ({ [a[0]]: removeTimeFromDate(a[1]) }))
-          .reduce((a, b) => Object.assign(a, b), {})
-      )
+  static getReportData(filePath) {
+    var data
+    if(filePath.indexOf('.json') > -1) {
+      data = read(filePath)
+    } else {
+      data = dl.csv(filePath, StatReport.getCVSHeader(filePath))
+    }
+
+    return data.map((d) =>
+      Object.entries(d)
+        .map((a) => ({ [a[0]]: removeTimeFromDate(a[1]) }))
+        .reduce((a, b) => Object.assign(a, b), {})
+    ).map(e => flattenJSON(e))
   }
 
   getCSVPath() {
@@ -79,6 +84,8 @@ class StatReport {
     if(this.getWritePath()) {
       this.writeReport(this.getWritePath())
     }
+
+    console.log(JSON.stringify(StatReport.getSummary(this.getData()), null, 2))
   }
 
 }

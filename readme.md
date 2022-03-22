@@ -1,5 +1,19 @@
 # statreport
 
+Create summary reports on the fly
+
+## Install
+
+```sh
+npm install -g statreport
 ```
-statreport --csvPath examples/data/us_state_6digitnaics_2016.csv --write examples/us_states.json
+
+## Usage
+
+```sh
+# csv
+statreport --file data.csv > summary.json
+
+#json
+statreport --file data.json > summary.json
 ```

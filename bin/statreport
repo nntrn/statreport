@@ -1,7 +1,20 @@
 #!/usr/bin/env node
 
-const StatReport = require('..')
+const StatReport = require('../src/statreport')
+const { parseArgs } = require('../src/utils')
 
-const sr = new StatReport(process.argv.slice(2))
+const { stdin } = process
+const args = parseArgs(process.argv.slice(2))
 
-sr.init()
+void async function main(std, argv = {}) {
+  std.setEncoding('utf8')
+  if(std.isTTY) {
+    return (new StatReport(argv)).build()
+  }
+  var result = ''
+  for await (const chunk of std) {
+    result += chunk
+  }
+  return (new StatReport({ stdin: result, ...argv })).build()
+}(stdin, args)
+

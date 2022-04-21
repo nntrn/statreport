@@ -1,6 +1,6 @@
 {
   "name": "statreport",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Create on-the-fly summary reports from CSV data",
   "main": "src/statreport.js",
   "scripts": {

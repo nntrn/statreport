@@ -1,0 +1,632 @@
+[
+  {
+    "name": "Survived",
+    "dataType": "integer",
+    "summaryType": "categorical",
+    "valid": 887,
+    "distinct": 2,
+    "topValues": [
+      {
+        "value": "0",
+        "count": 545,
+        "%": 61.443
+      },
+      {
+        "value": "1",
+        "count": 342,
+        "%": 38.557
+      }
+    ]
+  },
+  {
+    "name": "Pclass",
+    "dataType": "integer",
+    "summaryType": "categorical",
+    "valid": 887,
+    "distinct": 3,
+    "topValues": [
+      {
+        "value": "3",
+        "count": 487,
+        "%": 54.904
+      },
+      {
+        "value": "1",
+        "count": 216,
+        "%": 24.352
+      },
+      {
+        "value": "2",
+        "count": 184,
+        "%": 20.744
+      }
+    ]
+  },
+  {
+    "name": "Name",
+    "dataType": "string",
+    "summaryType": "distinct",
+    "distinct": 887,
+    "valid": 887
+  },
+  {
+    "name": "Sex",
+    "dataType": "string",
+    "summaryType": "categorical",
+    "valid": 887,
+    "distinct": 2,
+    "topValues": [
+      {
+        "value": "male",
+        "count": 573,
+        "%": 64.6
+      },
+      {
+        "value": "female",
+        "count": 314,
+        "%": 35.4
+      }
+    ]
+  },
+  {
+    "name": "Age",
+    "dataType": "number",
+    "summaryType": "categorical",
+    "distinct": 89,
+    "valid": 887,
+    "missing": 0,
+    "min": 0.42,
+    "max": 80,
+    "median": 28,
+    "mean": 29.47144306651637,
+    "stdev": 14.121908405462552,
+    "topValues": [
+      {
+        "value": "22",
+        "count": 39,
+        "%": 4.397
+      },
+      {
+        "value": "28",
+        "count": 37,
+        "%": 4.171
+      },
+      {
+        "value": "18",
+        "count": 36,
+        "%": 4.059
+      },
+      {
+        "value": "21",
+        "count": 34,
+        "%": 3.833
+      },
+      {
+        "value": "24",
+        "count": 34,
+        "%": 3.833
+      },
+      {
+        "value": "19",
+        "count": 33,
+        "%": 3.72
+      },
+      {
+        "value": "30",
+        "count": 33,
+        "%": 3.72
+      },
+      {
+        "value": "27",
+        "count": 26,
+        "%": 2.931
+      },
+      {
+        "value": "23",
+        "count": 25,
+        "%": 2.818
+      },
+      {
+        "value": "29",
+        "count": 25,
+        "%": 2.818
+      },
+      {
+        "value": "25",
+        "count": 24,
+        "%": 2.706
+      },
+      {
+        "value": "20",
+        "count": 23,
+        "%": 2.593
+      },
+      {
+        "value": "36",
+        "count": 23,
+        "%": 2.593
+      },
+      {
+        "value": "26",
+        "count": 21,
+        "%": 2.368
+      },
+      {
+        "value": "32",
+        "count": 21,
+        "%": 2.368
+      },
+      {
+        "value": "35",
+        "count": 21,
+        "%": 2.368
+      },
+      {
+        "value": "16",
+        "count": 20,
+        "%": 2.255
+      },
+      {
+        "value": "31",
+        "count": 19,
+        "%": 2.142
+      },
+      {
+        "value": "39",
+        "count": 18,
+        "%": 2.029
+      },
+      {
+        "value": "40",
+        "count": 18,
+        "%": 2.029
+      },
+      {
+        "value": "33",
+        "count": 17,
+        "%": 1.917
+      },
+      {
+        "value": "34",
+        "count": 17,
+        "%": 1.917
+      },
+      {
+        "value": "42",
+        "count": 17,
+        "%": 1.917
+      },
+      {
+        "value": "17",
+        "count": 16,
+        "%": 1.804
+      },
+      {
+        "value": "45",
+        "count": 14,
+        "%": 1.578
+      },
+      {
+        "value": "37",
+        "count": 12,
+        "%": 1.353
+      },
+      {
+        "value": "38",
+        "count": 12,
+        "%": 1.353
+      },
+      {
+        "value": "48",
+        "count": 12,
+        "%": 1.353
+      },
+      {
+        "value": "2",
+        "count": 11,
+        "%": 1.24
+      },
+      {
+        "value": "4",
+        "count": 11,
+        "%": 1.24
+      },
+      {
+        "value": "47",
+        "count": 10,
+        "%": 1.127
+      },
+      {
+        "value": "50",
+        "count": 10,
+        "%": 1.127
+      },
+      {
+        "value": "41",
+        "count": 9,
+        "%": 1.015
+      },
+      {
+        "value": "44",
+        "count": 9,
+        "%": 1.015
+      },
+      {
+        "value": "54",
+        "count": 9,
+        "%": 1.015
+      },
+      {
+        "value": "9",
+        "count": 8,
+        "%": 0.902
+      },
+      {
+        "value": "49",
+        "count": 8,
+        "%": 0.902
+      },
+      {
+        "value": "1",
+        "count": 7,
+        "%": 0.789
+      },
+      {
+        "value": "3",
+        "count": 7,
+        "%": 0.789
+      },
+      {
+        "value": "14",
+        "count": 7,
+        "%": 0.789
+      },
+      {
+        "value": "43",
+        "count": 7,
+        "%": 0.789
+      },
+      {
+        "value": "51",
+        "count": 7,
+        "%": 0.789
+      },
+      {
+        "value": "5",
+        "count": 6,
+        "%": 0.676
+      },
+      {
+        "value": "8",
+        "count": 6,
+        "%": 0.676
+      },
+      {
+        "value": "46",
+        "count": 6,
+        "%": 0.676
+      },
+      {
+        "value": "52",
+        "count": 6,
+        "%": 0.676
+      },
+      {
+        "value": "7",
+        "count": 5,
+        "%": 0.564
+      },
+      {
+        "value": "15",
+        "count": 5,
+        "%": 0.564
+      },
+      {
+        "value": "58",
+        "count": 5,
+        "%": 0.564
+      },
+      {
+        "value": "60",
+        "count": 5,
+        "%": 0.564
+      },
+      {
+        "value": "62",
+        "count": 5,
+        "%": 0.564
+      },
+      {
+        "value": "11",
+        "count": 4,
+        "%": 0.451
+      },
+      {
+        "value": "56",
+        "count": 4,
+        "%": 0.451
+      },
+      {
+        "value": "6",
+        "count": 3,
+        "%": 0.338
+      },
+      {
+        "value": "55",
+        "count": 3,
+        "%": 0.338
+      },
+      {
+        "value": "57",
+        "count": 3,
+        "%": 0.338
+      },
+      {
+        "value": "61",
+        "count": 3,
+        "%": 0.338
+      },
+      {
+        "value": "64",
+        "count": 3,
+        "%": 0.338
+      },
+      {
+        "value": "65",
+        "count": 3,
+        "%": 0.338
+      },
+      {
+        "value": "10",
+        "count": 2,
+        "%": 0.225
+      },
+      {
+        "value": "12",
+        "count": 2,
+        "%": 0.225
+      },
+      {
+        "value": "13",
+        "count": 2,
+        "%": 0.225
+      },
+      {
+        "value": "59",
+        "count": 2,
+        "%": 0.225
+      },
+      {
+        "value": "63",
+        "count": 2,
+        "%": 0.225
+      },
+      {
+        "value": "66",
+        "count": 2,
+        "%": 0.225
+      },
+      {
+        "value": "70",
+        "count": 2,
+        "%": 0.225
+      },
+      {
+        "value": "71",
+        "count": 2,
+        "%": 0.225
+      },
+      {
+        "value": "28.5",
+        "count": 2,
+        "%": 0.225
+      },
+      {
+        "value": "0.83",
+        "count": 2,
+        "%": 0.225
+      },
+      {
+        "value": "32.5",
+        "count": 2,
+        "%": 0.225
+      },
+      {
+        "value": "40.5",
+        "count": 2,
+        "%": 0.225
+      },
+      {
+        "value": "45.5",
+        "count": 2,
+        "%": 0.225
+      },
+      {
+        "value": "0.75",
+        "count": 2,
+        "%": 0.225
+      },
+      {
+        "value": "30.5",
+        "count": 2,
+        "%": 0.225
+      },
+      {
+        "value": "53",
+        "count": 1,
+        "%": 0.113
+      },
+      {
+        "value": "69",
+        "count": 1,
+        "%": 0.113
+      },
+      {
+        "value": "74",
+        "count": 1,
+        "%": 0.113
+      },
+      {
+        "value": "80",
+        "count": 1,
+        "%": 0.113
+      },
+      {
+        "value": "14.5",
+        "count": 1,
+        "%": 0.113
+      },
+      {
+        "value": "70.5",
+        "count": 1,
+        "%": 0.113
+      },
+      {
+        "value": "36.5",
+        "count": 1,
+        "%": 0.113
+      },
+      {
+        "value": "55.5",
+        "count": 1,
+        "%": 0.113
+      },
+      {
+        "value": "20.5",
+        "count": 1,
+        "%": 0.113
+      },
+      {
+        "value": "23.5",
+        "count": 1,
+        "%": 0.113
+      },
+      {
+        "value": "0.92",
+        "count": 1,
+        "%": 0.113
+      },
+      {
+        "value": "24.5",
+        "count": 1,
+        "%": 0.113
+      },
+      {
+        "value": "0.67",
+        "count": 1,
+        "%": 0.113
+      },
+      {
+        "value": "0.42",
+        "count": 1,
+        "%": 0.113
+      },
+      {
+        "value": "34.5",
+        "count": 1,
+        "%": 0.113
+      }
+    ]
+  },
+  {
+    "name": "Siblings/Spouses Aboard",
+    "dataType": "integer",
+    "summaryType": "categorical",
+    "valid": 887,
+    "distinct": 7,
+    "topValues": [
+      {
+        "value": "0",
+        "count": 604,
+        "%": 68.095
+      },
+      {
+        "value": "1",
+        "count": 209,
+        "%": 23.563
+      },
+      {
+        "value": "2",
+        "count": 28,
+        "%": 3.157
+      },
+      {
+        "value": "4",
+        "count": 18,
+        "%": 2.029
+      },
+      {
+        "value": "3",
+        "count": 16,
+        "%": 1.804
+      },
+      {
+        "value": "8",
+        "count": 7,
+        "%": 0.789
+      },
+      {
+        "value": "5",
+        "count": 5,
+        "%": 0.564
+      }
+    ]
+  },
+  {
+    "name": "Parents/Children Aboard",
+    "dataType": "integer",
+    "summaryType": "categorical",
+    "valid": 887,
+    "distinct": 7,
+    "topValues": [
+      {
+        "value": "0",
+        "count": 674,
+        "%": 75.986
+      },
+      {
+        "value": "1",
+        "count": 118,
+        "%": 13.303
+      },
+      {
+        "value": "2",
+        "count": 80,
+        "%": 9.019
+      },
+      {
+        "value": "3",
+        "count": 5,
+        "%": 0.564
+      },
+      {
+        "value": "5",
+        "count": 5,
+        "%": 0.564
+      },
+      {
+        "value": "4",
+        "count": 4,
+        "%": 0.451
+      },
+      {
+        "value": "6",
+        "count": 1,
+        "%": 0.113
+      }
+    ]
+  },
+  {
+    "name": "Fare",
+    "dataType": "number",
+    "summaryType": "quantitative",
+    "distinct": 248,
+    "valid": 887,
+    "missing": 0,
+    "min": 0,
+    "max": 512.3292,
+    "median": 14.4542,
+    "mean": 32.30542018038329,
+    "stdev": 49.78204040017391
+  }
+]

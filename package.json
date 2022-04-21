@@ -3,6 +3,7 @@
   "version": "0.2.0",
   "description": "Create on-the-fly summary reports from CSV data",
   "main": "src/statreport.js",
+  "repository": "nntrn/statreport",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

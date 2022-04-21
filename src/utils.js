@@ -1,6 +1,8 @@
 const fs = require('fs')
 const path = require('path')
 
+const isFlag = (str) => /^[-]{1,2}[a-z]/.test(str)
+
 function createAndWrite(dirPath = '', data = '') {
   if(!dirPath) {
     return data
@@ -14,6 +16,38 @@ function createAndWrite(dirPath = '', data = '') {
   })
   return data
 }
+
+function cliArgs(args = process.argv) {
+  const retVal = {}
+  while(args.length > 0) {
+    if(args.length === 1 || isFlag(args[0]) && isFlag(args[1])) {
+      Object.assign(retVal, { [camelCase(args[0])]: true })
+      args.splice(0, 1)
+      continue
+    }
+    Object.assign(retVal, { [camelCase(args[0])]: args[1] })
+    args.splice(0, 2)
+  }
+  return retVal
+}
+exports.cliArgs = cliArgs
+
+function readStdin() {
+  return new Promise((resolve, reject) => {
+    let content = ''
+    let chunk = ''
+    process.stdin
+      .setEncoding('utf8')
+      .on('readable', () => {
+        while((chunk = process.stdin.read()) !== null) {
+          content += chunk
+        }
+      })
+      .on('end', () => resolve(content))
+      .on('error', reject)
+  })
+}
+exports.readStdin = readStdin
 
 function parseArgs(args) {
   if(args.join(' ').indexOf('--') < 0) {
@@ -110,6 +144,14 @@ const flattenJSON = (obj = {}, res = {}, extraKey = '') => {
   };
   return res
 }
+
+function removeTimeFromDate(str) {
+  if(str && /^[0-9:\-\/]+ [0-9:]+$/.test(str) && !isNaN(Date.parse(str))) {
+    return new Date(str).toISOString().split('T')[0]
+  }
+  return str
+}
+
 exports.flattenJSON = flattenJSON
 exports.createAndWrite = createAndWrite
 exports.parseArgs = parseArgs
@@ -123,5 +165,4 @@ exports.kebabCase = kebabCase
 exports.formatNote = formatNote
 exports.detectScriptLine = detectScriptLine
 exports.getUserHome = getUserHome
-exports.btoa = str => Buffer.from(str + '\n', 'binary').toString('base64')
-
+exports.removeTimeFromDate = removeTimeFromDate

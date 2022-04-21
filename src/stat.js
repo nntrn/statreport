@@ -1,4 +1,4 @@
-var dl = require('datalib')
+const dl = require('datalib')
 
 const getSummary = {
   maxValuesToInclude: 25,
@@ -40,8 +40,6 @@ const getSummary = {
       median: fmtFn(p.median),
       mean: fmtFn(p.mean),
       stdev: fmtFn(p.stdev)
-      // modeskew: fmtFn(p.modeskew),
-      // ...this.getCategorical(p, options),
     }
   },
 
@@ -145,18 +143,16 @@ function formatSummaryObj(s, options) {
       arr.push({
         name: s[idx].field,
         dataType: s[idx].type,
-        // ...rest,
         ...getSummary[flag](s[idx], options)
+        // rest
       })
     } else {
       emptySummary.push(s[idx].field)
     }
   })
 
-  return {
-    summary: arr,
-    empty: emptySummary
-  }
+  return arr
+
 }
 
 module.exports = formatSummaryObj

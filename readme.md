@@ -1,6 +1,6 @@
 # statreport
 
-Create summary reports on the fly
+Command line program for creating summary reports from CSV
 
 ## Install
 
@@ -8,12 +8,14 @@ Create summary reports on the fly
 npm install -g statreport
 ```
 
-## Usage
+## Command Line
 
 ```sh
-# csv
-statreport --file data.csv > summary.json
+# pipe stdin
+cat data.csv | statreport
 
-#json
-statreport --file data.json > summary.json
+# pass file argument
+statreport --file data.csv
 ```
+
+View [examples](/examples)
